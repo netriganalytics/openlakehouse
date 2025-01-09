@@ -54,7 +54,6 @@ RUN pip install --no-cache-dir \
 RUN mkdir -p /opt/notebooks \
     && wget -O /opt/notebooks/unity_catalog_getting_started.ipynb https://github.com/netriganalytics/openlakehouse/blob/main/samples/unity_catalog_getting_started.ipynb
 
-
 # Expose JupyterLab port
 EXPOSE 8888
 
